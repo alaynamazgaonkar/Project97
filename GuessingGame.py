@@ -3,7 +3,6 @@ import random
 game=0
 
 num = random.randint(1, 9)
-print(num)
 
 
 guess1=int(input('Enter your guess :- '))
