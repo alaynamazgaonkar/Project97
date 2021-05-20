@@ -6,9 +6,10 @@ num = random.randint(1, 9)
 
 print('Guessing Game')
 print("You'll get 5 chances to guess the coreect number")
+print(' ')
 
 guess1=int(input('Enter your guess :- '))
-print(guess1)
+print(' ')
 if guess1>num:
     print('Your guess was too high.')
 elif guess1<num:
