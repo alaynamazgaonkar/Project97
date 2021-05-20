@@ -4,6 +4,8 @@ game=0
 
 num = random.randint(1, 9)
 
+print('Guessing Game')
+print("You'll get 5 chances to guess the coreect number")
 
 guess1=int(input('Enter your guess :- '))
 print(guess1)
@@ -16,7 +18,7 @@ elif guess1==num:
 
 if game==0:
     guess2=int(input('Enter your guess :- '))
-    print(guess2)
+    print(' ')
     if guess2>num:
         print('Your guess was too high.')
     elif guess2<num:
@@ -27,7 +29,7 @@ if game==0:
 
 if game==0:
     guess3=int(input('Enter your guess :- '))
-    print(guess3)
+    print(' ')
     if guess3>num:
         print('Your guess was too high.')
     elif guess3<num:
@@ -38,7 +40,7 @@ if game==0:
 
 if game==0:
     guess4=int(input('Enter your guess :- '))
-    print(guess4)
+    print(' ')
     if guess4>num:
         print('Your guess was too high.')
     elif guess4<num:
@@ -49,7 +51,7 @@ if game==0:
 
 if game==0:
     guess5=int(input('Enter your guess :- '))
-    print(guess5)
+    print(' ')
     if guess5>num:
         print('Your guess was too high.')
     elif guess5<num:
