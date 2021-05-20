@@ -5,7 +5,7 @@ game=0
 num = random.randint(1, 9)
 
 print('Guessing Game')
-print("You'll get 5 chances to guess the coreect number")
+print("You'll get 5 chances to guess the correct number")
 print(' ')
 
 guess1=int(input('Enter your guess :- '))
