@@ -24,7 +24,7 @@ if game==0:
         print('Your guess was too high.')
     elif guess2<num:
         print('Your guess was too low.')  
-    elif gues2s==num:
+    elif guess2==num:
         game=1    
 
 
