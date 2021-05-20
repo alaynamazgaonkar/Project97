@@ -2,10 +2,11 @@ import random
 
 game=0
 
-num = random.randint(1, 9)
+num = random.randint(1, 10)
 
 print('Guessing Game')
 print("You'll get 5 chances to guess the correct number")
+print("Guess a number between 1 and 9.")
 print(' ')
 
 guess1=int(input('Enter your guess :- '))
